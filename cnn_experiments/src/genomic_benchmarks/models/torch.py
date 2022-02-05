@@ -140,7 +140,7 @@ class CNN(nn.Module):
         # patience = 5
         best_epoch = 0
         checkpoint_name = checkpoint_name + "_checkpoint.pt"
-        model_path = Path.home() / "genomic_benchmarks" / "checkpoints" / checkpoint_name
+        model_path = Path.home() / "paper_FineTuning_Transformers_For_Genomic_Tasks" / "cnn_experiments" / "checkpoints" / checkpoint_name
         print(best_valid_so_far)
         for t in range(epochs):
             print(f"Epoch {t}")

@@ -1,0 +1,1 @@
+This folder contains the checkpoints of CNN experiments once the script is ran.
