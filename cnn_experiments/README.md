@@ -41,6 +41,7 @@ The results will be in the folder `cnn_experiments/experiments/torch_cnn_experim
 ## Folder structure
 - `datasets` contains the benchmark datasets
 - `docs` contains scripts and notebooks that have been used for creation of benchmarks
+- `experiments/utils` contains the script and notebook to run the experiments
 - `src/genomic_benchmarks` contains our package handling the genomic datasets
 
 
